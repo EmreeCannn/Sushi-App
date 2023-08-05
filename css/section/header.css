@@ -1,0 +1,44 @@
+
+
+.header__nav{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    
+  
+}
+
+.header__logo{
+    flex-grow: 1;
+    display: flex;
+    position: relative;
+    padding: 12px;
+}
+.header__menu li{
+    list-style-type: none;
+}
+.header__logo-overlay{
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    width: 67.8%;
+    background-color:#b1454a;
+}
+.header__logo h4{
+    padding-left: 30px;
+    color: white;
+}
+.header__menu{
+    display: flex;
+    align-items: center;
+   
+}
+.header__menu li{
+    margin-right: 1.4rem;
+    padding: 0.5rem;
+    
+}
+.for__mobile{
+    display: none;
+}
